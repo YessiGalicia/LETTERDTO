@@ -15,8 +15,8 @@ public class LetterCredits implements Serializable  {
 	private String letter;
 	private String reference;
 	private int secuence;
-	List<Banks> banks;
-	Costumer costumer;
+	List<Banks> banks = new ArrayList<>();
+	Costumer costumer = new Costumer();
 
 	public String getLetter() {
 		return this.letter;
