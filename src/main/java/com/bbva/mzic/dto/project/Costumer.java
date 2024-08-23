@@ -13,7 +13,7 @@ public class Costumer implements Serializable  {
 	private String name;
 	private String address;
 	private int id;
-	List<Code> code;
+	List<Code> code=new ArrayList<>();
 	
 
 	public String getName() {
